@@ -9,7 +9,7 @@ from torch import Tensor
 class DataModule(pl.LightningDataModule):
     def __init__(self,
                  data_root: str = '/development/dataset/preprocess_vox2_ave3',
-                 batch_size: int = 1,
+                 batch_size: int = 4,
                  num_workers: int = 12,
                  noise_condition: int = 2):
         """
