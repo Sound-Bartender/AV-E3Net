@@ -1,7 +1,16 @@
 lightning
 matplotlib
+torch
 torchaudio
 torchinfo
 torchvision
 av
 jsonargparse
+opencv-python
+librosa
+mediapipe
+pyaudio
+wandb
+tqdm
+numpy
+soundfile

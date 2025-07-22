@@ -1,9 +1,7 @@
 import torchaudio
-from datamodule import DataModule
-from utils.plot_waveforms import plot_waveforms
+from dataset.lrs3.datamodule_lrs3 import DataModule
 from model import AVE3Net
 import torch
-from torchvision import transforms
 import time
 import torch.nn.functional as F
 

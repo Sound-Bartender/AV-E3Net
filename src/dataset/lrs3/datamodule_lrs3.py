@@ -1,7 +1,6 @@
 import lightning.pytorch as pl
 from torch.utils.data import DataLoader
-from dataset import Dataset
-from utils.plot_waveforms import plot_waveforms
+from dataset.lrs3.dataset_lrs3 import Dataset
 import utils.logger as logger
 from typing import List, Tuple
 from torch import Tensor

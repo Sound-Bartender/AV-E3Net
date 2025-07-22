@@ -1,9 +1,8 @@
 from lightning.pytorch.cli import LightningCLI
-from datamodule import DataModule
+from dataset.vox2.datamodule_vox2 import DataModule
 from model import AVE3Net
-import sys
 import torch
-import os
+
 
 # os.environ["TORCH_CPP_LOG_LEVEL"] = "INFO"
 # os.environ["TORCH_DISTRIBUTED_DEBUG"] = "DETAIL"
